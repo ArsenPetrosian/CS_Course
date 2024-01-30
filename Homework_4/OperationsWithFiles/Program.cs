@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Reflection;
-
-namespace OperationsWithFiles
+﻿namespace OperationsWithFiles
 {
     internal class Program
     {

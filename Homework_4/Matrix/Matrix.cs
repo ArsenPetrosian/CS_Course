@@ -47,5 +47,4 @@
             return row >= 0 && row < _rows && column >= 0 && column < _columns;
         }
     }
-
 }

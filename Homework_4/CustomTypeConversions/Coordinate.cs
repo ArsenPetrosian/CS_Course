@@ -1,4 +1,6 @@
-﻿namespace CustomTypeConversions
+﻿using System.Numerics;
+
+namespace CustomTypeConversions
 {
     public class Coordinate
     {
