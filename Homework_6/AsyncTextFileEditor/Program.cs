@@ -18,7 +18,7 @@
                 Console.Write("Enter your choice: ");
                 string? choice = Console.ReadLine();
 
-                switch(choice)
+                switch (choice)
                 {
                     case "1":
                         ThreadPool.QueueUserWorkItem(async (_) => await helperMethod.EditTextFileAsync());

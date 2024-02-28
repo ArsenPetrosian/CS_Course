@@ -1,4 +1,4 @@
-namespace AsyncConsoleTextFileEditor
+﻿namespace AsyncConsoleTextFileEditor
 {
     public class HelperMethod
     {
@@ -31,7 +31,7 @@ namespace AsyncConsoleTextFileEditor
 
                 string? line;
 
-                while((line = Console.ReadLine()) != null)
+                while ((line = Console.ReadLine()) != null)
                 {
                     lines.Add(line);
                 }
@@ -40,7 +40,7 @@ namespace AsyncConsoleTextFileEditor
 
                 using (StreamWriter writer = new StreamWriter(filePath, false))
                 {
-                    foreach(string l in lines)
+                    foreach (string l in lines)
                     {
                         await writer.WriteLineAsync(l);
                     }
