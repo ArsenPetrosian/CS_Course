@@ -1,4 +1,4 @@
-﻿namespace AsyncConsoleTextFileEditor
+namespace AsyncConsoleTextFileEditor
 {
     public class HelperMethod
     {

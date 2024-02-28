@@ -21,7 +21,7 @@
                 switch(choice)
                 {
                     case "1":
-                        await helperMethod.EditTextFileAsync();
+                        ThreadPool.QueueUserWorkItem(async (_) => await helperMethod.EditTextFileAsync());
                         break;
                     case "2":
                         Console.WriteLine("Exiting");
